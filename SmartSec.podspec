@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/megavolt605/SmartSec_iOS_Security.git", :tag => 'v0.0.1' }
 
-  s.source_files  = "SmartSec", "SmartSec/**/*.{h,m}"
-  # s.exclude_files = "Classes/Exclude"
+  s.source_files  = "SmartSec/SmartSec/**/*.{h,m}"
+  # s.exclude_files = "SmartSec/NSArrayTest.m"
 
   # s.public_header_files = "Classes/**/*.h"
 
