@@ -13,6 +13,8 @@
     #error Obfuscate macro already defined, please rename your macro.
 #endif
 
+#undef I
+
 @interface NSMutableString (UAObfuscatedString)
 
 - (instancetype)a;
